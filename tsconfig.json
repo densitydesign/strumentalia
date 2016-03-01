@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": true,
+        "noEmitHelpers": false,
+        "noImplicitAny": false
+    },
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "exclude": [
+        "node_modules"
+    ],
+    "filesGlob": [
+        "client/**/*.ts",
+        "test/**/*.ts",
+        "typings/tsd.d.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "client/scripts/app/bootstrap.ts",
+        "client/scripts/app/components/about/about.component.spec.ts",
+        "client/scripts/app/components/about/about.component.ts",
+        "client/scripts/app/components/due/due.component.spec.ts",
+        "client/scripts/app/components/due/due.component.ts",
+        "client/scripts/app/components/mainNOTUSED/main.component.spec.ts",
+        "client/scripts/app/components/mainNOTUSED/main.component.ts",
+        "client/scripts/app/components/strumentalia-container/strumentalia-container.component.spec.ts",
+        "client/scripts/app/components/strumentalia-container/strumentalia-container.component.ts",
+        "client/scripts/app/components/strumentalia-footer/strumentalia-footer.component.spec.ts",
+        "client/scripts/app/components/strumentalia-footer/strumentalia-footer.component.ts",
+        "client/scripts/app/components/strumentalia-header/strumentalia-header.component.spec.ts",
+        "client/scripts/app/components/strumentalia-header/strumentalia-header.component.ts",
+        "client/scripts/app/components/uno/uno.component.spec.ts",
+        "client/scripts/app/components/uno/uno.component.ts",
+        "client/scripts/app/vendor.ts",
+        "test/e2e/app/app.e2e.ts",
+        "test/e2e/app/index.e2e.ts",
+        "test/sanity.spec.ts",
+        "typings/tsd.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
